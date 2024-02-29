@@ -1,0 +1,46 @@
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  gap: 3rem;
+  width: 100%;
+  max-width: 80rem;
+
+  &__product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    h4 {
+      font-weight: 600;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    button {
+      width: 100%;
+      border-radius: 0.8rem;
+      border: 1px solid #7777;
+      font-size: 1.8rem;
+      font-weight: 700;
+      padding: 1rem 0rem;
+      cursor: pointer;
+    }
+
+    .add-to-cart {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+      justify-items: center;
+
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}

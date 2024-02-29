@@ -1,0 +1,84 @@
+/**
+ * Global styles
+ */
+html {
+  font-size: 62.5%;
+  font-family: monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements, default styling will be removed */
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Set core body defaults */
+body {
+  position: relative;
+  text-rendering: optimizeSpeed;
+  background-color: white;
+}
+
+/* A elements that don't have a class get default styles */
+a {
+  font-size: 2rem;
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  display: inline;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+label {
+  font-size: 1.2rem;
+}
